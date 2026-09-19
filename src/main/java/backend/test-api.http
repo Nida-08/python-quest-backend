@@ -1,0 +1,10 @@
+### Register Player
+
+POST http://localhost:8080/api/players/register
+Content-Type: application/json
+
+{
+    "username": "nida",
+    "email": "nida@example.com",
+    "password": "123456"
+}
